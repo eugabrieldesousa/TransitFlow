@@ -22,7 +22,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .info-container3 {
@@ -35,6 +35,11 @@
 }
 .info-container4 {
   grid-area: fonts;
+
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* agency */
@@ -125,14 +130,14 @@
   position: relative;
   padding: 3rem 2rem;
   border-radius: 20px;
-  max-width: 413px;
-  margin: 10rem 3rem 3rem 3rem;
+
+  margin: 10rem 3rem 3rem 0rem;
 }
 
 .file-info-title {
   position: absolute;
   top: 15%;
-  left: 20%;
+  left: 0;
   font-size: 2.4rem;
   font-weight: 700;
 }
@@ -169,6 +174,10 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   margin-top: 2rem;
+}
+
+.card a:hover {
+  filter: brightness(90%);
 }
 
 .card h4 {
@@ -218,3 +227,38 @@
 }
 
 /* fonts */
+
+.info-container4 h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.fonts-image {
+  width: 45px;
+  height: 45px;
+}
+
+.fonts h3 {
+  display: inline;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.fonts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 9rem;
+}
+
+.font-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fonts span {
+  text-decoration: underline;
+  font-weight: 600;
+}
