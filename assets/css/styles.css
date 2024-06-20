@@ -1,0 +1,42 @@
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Css */
+@import url(main.css);
+@import url(info.css);
+
+/* Cores */
+:root {
+  --cor-primaria: #0d161a; /* Cor primária */
+  --cor-secundaria: #646e79; /* Cor secundária */
+  --cor-fundoaa: #171214; /* Cor de fundo */
+  --cor-destaque: #ffb322; /* Cor de destaque */
+  --cor-texto: #1c1f35; /* Cor do texto */
+  --cor-fundo: #1c2453;
+  --cor-botao: #4353ff;
+
+  --fonte: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte);
+}
+
+footer {
+  padding: 2rem;
+  background-color: var(--cor-primaria);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+footer span {
+  color: var(--cor-destaque);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0.5rem;
+}
