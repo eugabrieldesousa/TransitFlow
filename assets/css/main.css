@@ -3,7 +3,7 @@ main {
   /* ver esse top estranho gambiarra */
   background-color: var(--cor-fundo);
   color: white;
-  background-image: url("/assets/images/Rectangle\ 1079.png");
+  background-image: url("/assets/images/retangulo.png");
   background-repeat: no-repeat;
   background-position-y: 12rem;
   background-size: cover;
